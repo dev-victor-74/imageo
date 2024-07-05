@@ -1,41 +1,37 @@
+"use client"
+
 import Heading from '@/components/home/heading'
-import Jpgpng from '@/components/pdfs/jpg-to-png'
+import CompressImage from '@/components/pdfs/compress-image'
 import { MdCheck } from 'react-icons/md'
 
-const JpgToPng = () => {
+const ImageCompressorPage = () => {
 
   const features = [
+    
     {
       id:1,
-      label: "High-quality PNG output",
-    },
-    {
-      id:2,
       label: "Secure and private processing",
     },
+    
     {
-      id:3,
-      label: "High-precision image conversion",
-    },
-    {
-      id:4,
+      id:2,
       label: "No software installation needed"
     },
     {
-      id:5,
+      id:3,
       label: "Free to use no account is needed"
     },
    
   ]
 
   return (
-    <main className='w-full px-3 md:w-[95%] md:px-0 mx-auto mt-4'>
+    <main className='w-full h-full px-1 md:w-[95%] md:px-0 mx-auto mt-4'>
         <Heading
-          tile="Jpg to png Converter"
-          desc="Transform your JPEG images into high-quality PNG files with our Universal JPEG to PNG Converter."
+          tile="Image Compressor"
+          desc="Easily resize your image file with our easy to use tool under few clicks (perfect for compressing and resizing large files)"
         />
-        <section className='w-full sm:w-[80%] md:w-[85%] lg:w-[60%] mx-auto mt-5 px-2 md:px-0'>
-            <Jpgpng/>
+        <section className='w-full md:w-[85%] lg:w-[75%] mx-auto mt-5 px-2 md:px-0'>
+          <CompressImage/>
         </section>
 
         <div className="w-full rounded-sm md:w-[90%] mx-auto flex flex-col gap-1 mt-16 mb-8 bg-slate-50 px-4 md:px-5 py-5">
@@ -62,4 +58,4 @@ const JpgToPng = () => {
   )
 }
 
-export default JpgToPng
+export default ImageCompressorPage

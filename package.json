@@ -1,5 +1,5 @@
 {
-  "name": "simpletools",
+  "name": "Convertify",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@react-pdf/renderer": "^3.4.4",
+    "browser-image-compression": "^2.0.2",
+    "clsx": "^2.1.0",
+    "crisp-sdk-web": "^1.0.25",
+    "formidable": "^3.5.1",
     "next": "14.2.3",
     "pdf-merger-js": "^5.1.1",
     "react": "^18",
