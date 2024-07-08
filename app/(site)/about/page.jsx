@@ -25,11 +25,11 @@ const services = [
 const whyChooseUs =[
    {
       label:"User-Friendly Interface:",
-      description:"Our web app is designed with simplicity in mind. Even if you're not tech-savvy, you'll find our tools intuitive and easy to use."
+      description:"Our web app is designed with simplicity in mind. Even if you are not tech-savvy, you will find our tools intuitive and easy to use."
    },
    {
       label:"Fast and Efficient:",
-      description:"Save time with our quick processing speeds. We understand that your time is valuable, and we're committed to providing fast results without compromising on quality."
+      description:"Save time with our quick processing speeds. We understand that your time is valuable, and we are committed to providing fast results without compromising on quality."
    },
    {
       label:"High-Quality Output:",
@@ -52,14 +52,14 @@ const About = () => {
              <div className="w-full h-full flex flex-col gap-4">
               <div className="w-full flex items-center flex-col gap-2">
                    <p className="text-[16px] md:text-[17px] font-medium text-zinc-800 text-justify">
-                        Welcome to Convertify your all-in-one web app for seamless image and document management. Whether you're a professional, student, or just someone looking to streamline your digital tasks, Convertify offers a suite of powerful tools designed to make your life easier.
+                        Welcome to Convertify your all-in-one web app for seamless image and document management. Whether you are a professional, student, or just someone looking to streamline your digital tasks, Convertify offers a suite of powerful tools designed to make your life easier.
                    </p>
               </div>
 
               <div className="w-full flex flex-col gap-1">
                   <h2 className="text-xl md:text-2xl font-semibold md:font-bold text-zinc-800">Our Mission</h2>
                   <p className="text-[16px] font-medium text-zinc-800 text-justify">
-                        At Convertify, our mission is to provide simple, efficient, and high-quality digital solutions that cater to your everyday needs. We understand the importance of quick and reliable tools in today's fast-paced world, and we're here to help you achieve your goals with ease.
+                        At Convertify, our mission is to provide simple, efficient, and high-quality digital solutions that cater to your everyday needs. We understand the importance of quick and reliable tools in todays fast-paced world, and we are here to help you achieve your goals with ease.
                    </p>
               </div>
 

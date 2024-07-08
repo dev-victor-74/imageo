@@ -22,7 +22,7 @@ const Termspage = () => {
       label:"User Conduct",
       desc:` Users are prohibited from engaging in any conduct that may disrupt or interfere with the operation of Convertify or the experience of other users. This includes but is not limited to
 
-      uploading or transmitting any content that is unlawful, harmful, threatening, abusive, harassing, defamatory, vulgar, obscene, libelous, invasive of another's privacy, hateful, or racially, ethnically, or otherwise objectionable.`
+      uploading or transmitting any content that is unlawful, harmful, threatening, abusive, harassing, defamatory, vulgar, obscene, libelous, invasive of anothers privacy, hateful, or racially, ethnically, or otherwise objectionable.`
     },
     {
       id:5,
