@@ -21,6 +21,8 @@ const Imagestopdf = () => {
   img:{
    marginTop:3,
    padding:margin === "small"? 5 : margin === "medium" ? 10 : margin === "large" ? 20 : 0,
+   height:100%,
+   width:100%, 
   }
   })
     const dragItem = useRef(null);
