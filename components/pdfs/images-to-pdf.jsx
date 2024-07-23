@@ -17,14 +17,22 @@ const Imagestopdf = () => {
   const[margin, setMargin]= useState("small");
 
     
-  const style = StyleSheet.create({
-  img:{
-   marginTop:3,
-   padding:margin === "small"? 5 : margin === "medium" ? 10 : margin === "large" ? 20 : 0,
-   height:100%,
-   width:100%, 
-  }
-  })
+const styles = StyleSheet.create({
+    page: {
+        position: 'relative',
+        width: '100%',
+        height: '100%',
+        padding: 0,
+        margin: 0,
+    },
+    image: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+    },
+});
     const dragItem = useRef(null);
     const dragOverItem = useRef(null);
     
@@ -137,10 +145,10 @@ const Imagestopdf = () => {
           <Document>
              {
               images.map((im, i)=>(
-                <Page key={i} size={size} orientation={orientation}>
+                <Page key={i} size={size} orientation={orientation} style={styles.page}>
                    <Image
                     src={im}
-                    style={style.img}
+                    style={styles.image}
                    />
                 </Page>
               ))
